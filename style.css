@@ -46,6 +46,7 @@ img {
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .sidebar {
     background-color: #333;
     color: #fff;
@@ -57,12 +58,14 @@ img {
     height: 100%;
     transition: left 0.3s ease;
 }
+
 .sidebar a {
     display: block;
     color: #fff;
     text-decoration: none;
     margin-bottom: 10px;
 }
+
 .menu-icon {
     position: fixed;
     top: 20px;
@@ -70,6 +73,7 @@ img {
     font-size: 24px;
     cursor: pointer;
 }
+
 .show-sidebar {
     left: 0;
 }
