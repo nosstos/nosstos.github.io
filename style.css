@@ -19,8 +19,13 @@ nav a {
 }
 
 .logo {
-    width: 40px; /* Adjust the logo size as needed */
-    margin-right: 10px;
+        width: 40px; /* Adjust the logo size as needed */
+        height: 40px; /* Adjust the height as needed */
+        background-size: contain; /* Scale the image to fit the container */
+        background-repeat: no-repeat; /* Prevent repetition */
+        margin-right: 10px;
+        max-height: 40px; /* Adjust the height as needed */
+        max-width: 100%; /* Allow the width to adjust proportionally */
 }
 
 /* Section styling */
