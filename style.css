@@ -3,8 +3,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     color: #333;
-    margin: 0; /* Reset default margin */
-    padding: 0; /* Reset default padding */
 }
 
 /* Header styling */
@@ -88,5 +86,43 @@ img {
 
 .show-sidebar {
     left: 0;
+}
+
+/* Article styling */
+.article-container {
+    background-image: url("images/Bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keep the background fixed */
+    height: 100vh;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center; /* Center text horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center text vertically */
+    background-color: rgba(0, 0, 0, 0.7); /* Darken the background */
+}
+
+.article-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.article-container p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Footer styling */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
 
