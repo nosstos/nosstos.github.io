@@ -90,24 +90,3 @@ img {
     left: 0;
 }
 
-/* Article styling */
-.article-container {
-    background-image: url("images/Bg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* Keep the background fixed */
-    height: 100vh;
-    padding: 20px;
-    color: #ffffff;
-}
-
-.article-container h1 {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.article-container p {
-    font-size: 16px;
-    line-height: 1.5;
-}
-
