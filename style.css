@@ -95,7 +95,7 @@ img {
     background-image: url("images/Bg.jpg");
     background-size: cover; /* Resize the background to cover the entire container */
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Keep the background fixed */
     height: 100vh; /* Set a specified height (adjust as needed) */
     padding: 20px; /* Add some padding for readability */
     color: #ffffff; /* Text color (white in this case) */
