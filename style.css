@@ -3,6 +3,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     color: #333;
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
 }
 
 /* Header styling */
@@ -89,19 +91,16 @@ img {
 }
 
 /* Article styling */
-
-/* Set the background image */
 .article-container {
     background-image: url("images/Bg.jpg");
-    background-size: cover; /* Resize the background to cover the entire container */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed; /* Keep the background fixed */
-    height: 100vh; /* Set a specified height (adjust as needed) */
-    padding: 20px; /* Add some padding for readability */
-    color: #ffffff; /* Text color (white in this case) */
+    height: 100vh;
+    padding: 20px;
+    color: #ffffff;
 }
 
-/* Additional styling for your article content */
 .article-container h1 {
     font-size: 24px;
     font-weight: bold;
