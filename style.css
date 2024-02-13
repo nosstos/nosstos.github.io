@@ -92,7 +92,7 @@ img {
 
 /* Set the background image */
 .article-container {
-    background-image: url("path/to/your-image.jpg");
+    background-image: url("images/Bg.jpg");
     background-size: cover; /* Resize the background to cover the entire container */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-position: center; /* Center the image */
