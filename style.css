@@ -126,3 +126,21 @@ img {
     padding: 10px 0;
 }
 
+/* Social Icons (all rights go to the original owners) */
+
+.social-icons a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.twitter {
+    background-image: url("images/social icons/X_logo.png");
+}
+
+.github {
+    background-image: url("images/social icons/github.png");
+}
