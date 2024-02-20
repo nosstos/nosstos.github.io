@@ -173,6 +173,7 @@ section p {
  }
 
 /* Footer styling */
+
 .footer {
     position: fixed;
     left: 0;
@@ -182,11 +183,9 @@ section p {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    left: 0;
-    bottom: 0;
     height: 100px; /* Adjust as needed */
-    width: 100%;
 }
+
 
 /* Social Icons (all rights go to the original owners) */
 
