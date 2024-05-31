@@ -9,19 +9,26 @@
 </head>
 <body>
     <div class="contact-container">
-        <form action="" class="contact-left">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+
+            <input type="hidden" name="access_key" value="WEB3_ACCESS_KEY">
+            
             <div class="contact-left-title">
                 <h2>NossTos Forums: Get in touch about stuff</h2>
                 <h1>Comming Soon. Stay Tuned</h1>
                 <hr>
             </div>
-            <input type="text" name="name" placeholder="Enter your name(example: Jhon Doe):" class="contact-inputs" required>
-            <input type="email" name="email" placeholder="Enter your email(example: JhonDoe@buissness.com):" class="contact-inputs" required>
+            <input type="text" name="name" placeholder="Enter your name:" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Enter your email:" class="contact-inputs" required>
             <textarea name="message" placeholder="What is your message?" class="contact-inputs" required></textarea>
+            
+            <div class="h-captcha" data-captcha="true"></div>
+            
             <button type="submit">Submit</button>
         </form>
         <div class="contact-right"></div>
     </div>
     
+    <script src="https://web3forms.com/client/script.js" async defer></script>
 </body>
 </html>
